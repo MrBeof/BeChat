@@ -1,4 +1,4 @@
--- CipherChat tek parça Supabase kurulumu
+-- BeChat tek parça Supabase kurulumu
 -- Supabase Dashboard > SQL Editor içine yapıştırıp bir kez Run'a basın.
 
 create table if not exists public.profiles (

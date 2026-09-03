@@ -1,4 +1,4 @@
-# CipherChat — tarayıcı prototipi
+# BeChat — tarayıcı prototipi
 
 Android prototipinin HTML, CSS ve JavaScript ile çalışan sürümüdür. Sunucu başlatmadan `index.html` dosyasına çift tıklayarak açılır. Supabase yapılandırılmamışsa çalışan demo modu sunar.
 
