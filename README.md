@@ -10,7 +10,7 @@ Android prototipinin HTML, CSS ve JavaScript ile çalışan sürümüdür. Sunuc
 4. `index.html` dosyasını çift tıklayın. Kullanıcılar görünen ad, e-posta ve en az 8 karakterli parolayla kayıt olabilir; ardından e-posta ve parolalarıyla giriş yapabilir.
 5. İkinci bir kullanıcıyla test etmek için farklı tarayıcı profili veya başka bir cihaz kullanın.
 
-Daha önce telefon numaralı eski veritabanı şemasını kurduysanız, tam kurulumu tekrar çalıştırmak yerine `supabase-migration-email.sql` dosyasını SQL Editor'da bir kez çalıştırın. Bu işlem mevcut verileri silmeden `email` alanını ekler ve API şema önbelleğini yeniler.
+`supabase.sql` tek kurulum dosyasıdır. Eski telefon tabanlı şemayı veri silmeden günceller; profil, kişi, engelleme, mesaj, güvenlik politikaları ve Realtime ayarlarının tamamını kurar.
 
 Supabase panelindeki **Confirm email** ayarı açıksa yeni kullanıcı önce gelen e-postadaki bağlantıya tıklamalıdır. Kod ekranı kullanılmaz. Onaysız ve hemen giriş isteniyorsa bu ayarı Email sağlayıcısı altında kapatabilirsiniz.
 
