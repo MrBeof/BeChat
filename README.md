@@ -17,3 +17,5 @@ Supabase panelindeki **Confirm email** ayarı açıksa yeni kullanıcı önce ge
 Mesaj metni Web Crypto API ile tarayıcıda P-256 ECDH + AES-256-GCM kullanılarak şifrelenir. Supabase yalnızca şifreli metni, IV değerini, özeti ve teslim bilgisini saklar. Özel anahtar yalnızca ilgili tarayıcıda tutulur; tarayıcı verileri temizlenirse eski mesajlar çözülemez.
 
 > Bu çalışma üretim güvenlik denetiminden geçmiş bir mesajlaşma ürünü değildir. Anahtar yedekleme, çoklu cihaz, anahtar yenileme ve kötüye kullanım önleme üretim öncesinde ayrıca tasarlanmalıdır.
+
+Mesaj kutusunda `Enter` mesajı gönderir; `Shift+Enter` yeni satır açar. Şifreleme anahtarları hesap kimliğine göre ayrı saklanır. Tarayıcı verileri daha önce silindiyse eski mesajların anahtarı geri getirilemez; düzeltmeden sonra gönderilen yeni mesajlar çözülebilir.
