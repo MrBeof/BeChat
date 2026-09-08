@@ -1,0 +1,15 @@
+{
+  "name": "tilki-alpha",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Film, dizi ve sosyal sohbet alfa prototipi",
+  "scripts": {
+    "dev": "node server.cjs",
+    "test": "node --test tests/chat.cjs tests/cinema.cjs",
+    "test:database": "node --test tests/database.cjs",
+    "setup:tests": "node install-test-db.cjs",
+    "check": "node --check app.js && node --check cinema.js && node --check catalog.js",
+    "build": "node build.cjs"
+  },
+  "engines": { "node": ">=22" }
+}

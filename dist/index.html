@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="Tilki: film ve dizi keşfet, izleme listeni oluştur, arkadaşlarınla sohbet et.">
+  <title>Tilki — Film, Dizi & Sohbet</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="cinema.css">
+</head>
+<body>
+  <div class="t-shell">
+    <aside class="t-sidebar" id="navigation"></aside>
+    <main class="t-main" id="mainContent">
+      <div id="cinema"></div>
+      <section id="socialPane" hidden><div id="app" class="app-shell"></div></section>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+  <script src="catalog.js"></script>
+  <script src="cinema.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
